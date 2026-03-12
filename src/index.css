@@ -1,0 +1,53 @@
+/* Importar fuente moderna de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@800&display=swap');
+
+:root {
+  --primary-red: #D32F2F;
+  --dark-bg: #1A202C;
+  --light-bg: #F7FAFC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--light-bg);
+  color: #2D3748;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Estilo para títulos de impacto */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Animación de entrada para las tarjetas */
+.premium-card, .web-card, .card-web, .card {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Personalización del scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-red);
+}

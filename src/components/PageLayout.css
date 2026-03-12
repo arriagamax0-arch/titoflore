@@ -1,0 +1,19 @@
+.layout-wrapper { display: flex; flex-direction: column; min-height: 100vh; font-family: 'Segoe UI', sans-serif; background-color: #f4f7f6; }
+.navbar { height: 70px; background: #1a202c; display: flex; align-items: center; justify-content: space-between; padding: 0 40px; position: sticky; top: 0; z-index: 100; }
+.nav-logo { color: white; text-decoration: none; font-weight: 800; font-size: 1.2rem; }
+.red-text { color: #d32f2f; }
+.nav-links a { color: white; text-decoration: none; margin-left: 20px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; transition: 0.3s; }
+.nav-links a:hover { color: #d32f2f; }
+
+.main-content { flex: 1; padding: 40px 20px; text-align: center; }
+.page-header { font-size: 2.5rem; color: #1a202c; font-weight: 900; margin-bottom: 30px; }
+
+.footer { background: #1a202c; color: white; padding: 40px; text-align: center; margin-top: 50px; }
+.footer-line { width: 50px; height: 3px; background: #d32f2f; margin: 0 auto 20px; }
+.footer-title { color: #d32f2f; font-weight: 900; letter-spacing: 2px; font-size: 0.9rem; }
+.team-names { list-style: none; padding: 0; color: #a0aec0; line-height: 1.8; margin: 15px 0; }
+.social-box { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
+.social-link { display: flex; align-items: center; gap: 8px; padding: 8px 15px; border-radius: 8px; text-decoration: none; font-weight: bold; border: 1px solid; }
+.fb { color: #1877f2; border-color: #1877f2; }
+.wa { color: #25d366; border-color: #25d366; }
+.location { display: flex; align-items: center; justify-content: center; gap: 8px; color: #718096; font-size: 0.8rem; }
