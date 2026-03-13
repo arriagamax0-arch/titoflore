@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, MessageCircle, MapPin } from 'lucide-react';
+import { Facebook, MessageCircle, MapPin, Mail } from 'lucide-react';
 import './PageLayout.css';
 
 export default function PageLayout({ children, title }) {
@@ -43,6 +43,9 @@ export default function PageLayout({ children, title }) {
           </a>
           <a href="https://wa.me/527201994057" target="_blank" rel="noreferrer" className="social-link wa">
             <MessageCircle size={20} /> WhatsApp
+          </a>
+          <a href="mailto:hypergym7@gmail.com" className="social-link mail">
+            <Mail size={20} /> Correo
           </a>
         </div>
 
